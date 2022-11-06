@@ -14,7 +14,7 @@
   <div class="wrapper">
 
     <div class="field">
-      <input type="text" name="password" id="password" value="" min="6" max="32" steps="1" />
+      <input type="text" name="password" id="password" value="" min="6" max="100" steps="1" />
 
       <!-- 👇🏻 Add a class of "copied" when the user clicks this button 👇🏻 -->
       <button class="copy">
@@ -29,8 +29,8 @@
     </div>
 
     <div class="field">
-      <input type="range" name="length" id="length" value="12" min="6" max="32" />
-      <span id="lengthText">12</span> characters
+      <input type="range" name="length" id="length" value="0" min="0" max="100" />
+      <span id="lengthText">0</span> characters
     </div>
 
     <div class="field">
@@ -53,13 +53,13 @@
       <label for="uppercase"><strong>Include Uppercase Characters</strong> (ABCD)</label>
     </div>
 
-    <div class="field">
+    <!-- <div class="field">
       <input type="checkbox" name="similar" id="similar" checked="true"/>
       <label for="similar"><strong>Include Similar Characters</strong> (i, l, 1, L, o, 0, O)</label>
-    </div>
+    </div> -->
 
   </div>
-  <script src="app.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
